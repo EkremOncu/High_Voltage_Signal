@@ -8,7 +8,7 @@ import matplotlib as mpl
 
 
 with open("C:/Users/Lenovo/Desktop/Excel/S_8.csv", "r") as f:
-    icerik_2 = f.readlines() #readlines komutu listeye d�n�st�r�yor
+    icerik_2 = f.readlines() #readlines komutu listeye donusturuyor
     #for satir_2 in icerik_2:
         #print(satir_2, end=(""))
 icerik_2 = np.array(icerik_2)
@@ -19,7 +19,7 @@ icerik_2 = icerik_2.astype(float)
 
 def onlyAC_800():
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_150303_800_ OnlyAC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
@@ -45,7 +45,7 @@ def onlyAC_800():
 
 def onlyDC_080():
     with open("C:/Users/Lenovo/Desktop/Excel/20210330_175549_080_onlyDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
@@ -69,14 +69,14 @@ def onlyDC_080():
 print("\n")
 def only_eksiDC_110():
     with open("C:/Users/Lenovo/Desktop/Excel/S_16.csv", "r") as f:
-        icerik_3 = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik_3 = f.readlines()
     
     print("\n")
     icerik_3 = np.array(icerik_2)
     icerik_3 = icerik_2.astype(float)
     
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_153926_110_EksiDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
       
     icerik = np.array(icerik)
     icerik = icerik.astype(float)
@@ -98,7 +98,7 @@ def only_eksiDC_110():
 print("\n")
 def AC_artı6KV_DC():
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_150303_300_AC_artı_6kVDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
@@ -121,7 +121,7 @@ def AC_artı6KV_DC():
 print("\n")
 def AC_artı6KV_DC_800():
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_150432_800_AC_artı_6kVDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
@@ -144,7 +144,7 @@ def AC_artı6KV_DC_800():
 print("\n")   
 def AC_eksi6KV_DC():   
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_163107_040_AC_eksi_6kVDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
@@ -167,7 +167,7 @@ def AC_eksi6KV_DC():
 print("\n")
 def AC_eksi6KV_DC_200():   
     with open("C:/Users/Lenovo/Desktop/Excel/20210420_163319_200_AC_eksi_6kVDC.csv", "r") as f:
-        icerik = f.readlines() #readlines komutu listeye d�n�st�r�yor
+        icerik = f.readlines()
     
     print("\n")
     icerik = np.array(icerik)
